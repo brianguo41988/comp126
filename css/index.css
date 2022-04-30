@@ -48,7 +48,7 @@ h1, p, button, input, footer, select, address, li, a, h2 {
 
 .grid-body {
     display: grid;
-    grid-template-rows: 50px 500px 250px;
+    grid-template-rows: 5px 500px 200px;
 }
 
 h1{
@@ -141,6 +141,10 @@ p{
 p{
     padding-left: 20px;
     padding-right: 20px;
+}
+footer {
+    text-align: center;
+    margin: 2%;
 }
 
 

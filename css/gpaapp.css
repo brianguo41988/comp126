@@ -107,10 +107,12 @@ select{
     padding-left: 280px;
 }
 
+
   @media only screen and (max-width: 1400px) {
     .center{
         padding-left: 200px;
     }
+    
     
   }
 
@@ -118,7 +120,7 @@ select{
     .center{
         padding-left: 150px;
     }
-
+    
   }
 
   @media only screen and (max-width: 1000px) {

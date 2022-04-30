@@ -38,6 +38,10 @@
 li a:hover {
     color: #a75b37
 }
+footer {
+    text-align: center;
+    margin: 2%;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Indie+Flower&display=swap');
 
@@ -47,7 +51,7 @@ h1, p, button, input, footer, select, address, li, a, h2 {
 
 .grid-body {
     display: grid;
-    grid-template-rows: 50px 400px 400px 400px 400px 400px 400px;
+    grid-template-rows: 5px 400px 400px;
     margin-left: 25px;
     margin-right: 25px;
     grid-gap: 25px;

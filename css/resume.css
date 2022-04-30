@@ -1,0 +1,10 @@
+h3 {
+    justify-content: center;
+}
+
+.frame {
+    width: 110%;
+    min-width: fit-content;
+    height: 700px;
+    box-shadow: inset;
+}

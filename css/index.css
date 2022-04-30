@@ -48,7 +48,7 @@ h1, p, button, input, footer, select, address, li, a, h2 {
 
 .grid-body {
     display: grid;
-    grid-template-rows: 5px 500px 200px;
+    grid-template-rows: 5px 500px 50px;
 }
 
 h1{

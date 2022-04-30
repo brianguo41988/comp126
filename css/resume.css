@@ -8,3 +8,9 @@ h3 {
     height: 700px;
     box-shadow: inset;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Indie+Flower&display=swap');
+
+h1, p, button, input, footer, select, address, li, a, h2 {
+    font-family: 'Indie Flower', cursive;
+}

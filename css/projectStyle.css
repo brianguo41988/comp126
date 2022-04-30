@@ -110,7 +110,7 @@ select{
         padding-left:140px;
     }
     .container{
-        padding-left: 300px;
+        padding-left: 270px;
     }
     .imageClass{
         width:600px;
@@ -133,26 +133,46 @@ select{
         padding-left: 200px;
     }
     .imageClass{
-        width:600px;
+        width:550px;
         padding-right: 150px;
     }
     .projectTextBox{
         width:80%;
-    }
-    h2{
-        color:blue;
+        height:350px
     }
     
   }
 
-  @media only screen and (max-width: 800px) {
-    .naviBar{ 
-        visibility: hidden;
+  @media only screen and (max-width: 1000px) {
+    .row{
+        flex-direction: column;
+        padding-left:140px;
     }
-
-    select{
-        visibility: visible;
-        margin-left: 15%;
+    .container{
+        padding-left: 60px;
+    }
+    .imageClass{
+        padding-right: 200px;
+    }
+    .projectTextBox{
+        width:80%;
+        height:350px
     }
     
   }
+  @media only screen and (max-width: 790px) {
+    .row{
+        flex-direction: column;
+        padding-left:140px;
+    }
+    .container{
+        padding-left: 60px;
+    }
+    .imageClass{
+        padding-right: 200px;
+    }
+    .projectTextBox{
+        width:80%;
+        height:500px
+    }
+}
